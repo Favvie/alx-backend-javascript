@@ -35,7 +35,7 @@ export default function updateStudentGradeByCity(students, city, newGrades) {
     });
     student.grade = 'N/A';
   });
-  const stu = studentGrades.filter((studentx) => {
+  const stu = studenteGrades.filter((studentx) => {
     if (studentx.location === city) {
       return true;
     }
