@@ -1,11 +1,12 @@
 interface Student {
     firstName: string,
     lastName: string,
+    age: number
     location: string
 }
 
-let student1: Student = {firstName: 'favour', lastName: 'Abangwu', location: 'Abuja'}
-let student2: Student = { firstName: 'loveth', lastName: 'Chibuzor', location: 'Ekiti' }
+let student1: Student = {firstName: 'favour', lastName: 'Abangwu',age: 20, location: 'Abuja'}
+let student2: Student = { firstName: 'loveth', lastName: 'Chibuzor',age: 23, location: 'Ekiti' }
 const studentList : Student[] = [student1, student2]
 
 const body: HTMLBodyElement = document.querySelector("body");
