@@ -5,8 +5,9 @@ export default function createReportObject(employees) {
     allEmployees: { ...employees },
     getNumberOfDepartments(allEmployees) {
       let count = 0;
+      // eslint-disable-next-line
       for (const employee in allEmployees) {
-        count++;
+        count += 1;
       }
       return count;
     },
