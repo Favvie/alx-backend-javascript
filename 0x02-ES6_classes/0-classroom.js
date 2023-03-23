@@ -5,11 +5,11 @@ export default class ClassRoom {
 
   set maxStudentsSize(value) {
     if (typeof value === 'number') {
-      this._maxStudentsSize = value
+      this._maxStudentsSize = value;
     }
   }
 
   get maxStudentsSize() {
-    return this._maxStudentsSize
+    return this._maxStudentsSize;
   }
 }
