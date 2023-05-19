@@ -8,8 +8,6 @@ function calculateNumber(type, a, b) {
             return 'Error'
         } 
         return Math.round(a) / Math.round(b)
-    } else if (type === 'MULTIPLY') {
-        return Math.round(a) * Math.round(b)
     }
 }
 
