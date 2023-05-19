@@ -1,5 +1,6 @@
 const assert = require('assert')
-const calculate = require('./0-calcul')
+const calculate = require('./0-calcul.js')
+const { it, describe } = require("mocha");
 
 describe('calculateSum', function () {
     it('should return true of the value is rounded4 ', function () {
