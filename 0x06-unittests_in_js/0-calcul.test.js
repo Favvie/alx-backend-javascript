@@ -15,4 +15,4 @@ describe('calculateSum', function () {
     it('should return true of the value is rounded 6', function () {
         assert.equal(calculate(1.5, 3.7), 6);
     });
-})
+});
