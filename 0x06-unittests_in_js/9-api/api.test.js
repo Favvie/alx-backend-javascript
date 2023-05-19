@@ -1,9 +1,5 @@
 const request = require('request')
 const {expect} = require('chai')
-const { response } = require('express')
-
-const request = require('request')
-const {expect} = require('chai')
 
 describe('index page testing', function () {
     it('should return welcome to payment on get "/"', function (done) {
