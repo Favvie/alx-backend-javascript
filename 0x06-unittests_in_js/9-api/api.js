@@ -7,12 +7,11 @@ app.get('/', (req, res) => {
     res.send('Welcome to the payment system')
 })
 
-app.get('/cart/:id', (req, res) => {
+app.get('/cart/:id([0-9]+)', (req, res) => {
     itemID = req.params.id
-    if (!isNaN(itemID)) {
-        res.send(`Payment methods for cart ${itemID}`)
-    }
-    res.status(404).send('not found')
+    res.send(`Payment methods for cart ${itemID}`)
+
+
 })
 app.listen(port, () => {
     console.log('API available on localhost port 7865')
